@@ -12,15 +12,15 @@ function stringBasics()    // Functions
     console.log("My hobbies are =>",hobby1,hobby2,hobby3);
   }
   function charSum() {
-    var hobby1Lenght = hobby1.length;
-    var hobby2Lenght = hobby2.length;
-    var hobby3Lenght = hobby3.length;
-   
+    // var hobby1Lenght = hobby1.length;
+    // var hobby2Lenght = hobby2.length;
+    // var hobby3Lenght = hobby3.length;
+
     var sum = hobby1.length+hobby2.length+hobby3.length;
   
     console.log("Sum of total number of character in Hobbies are => ",sum);
   }
-  //--------------------------------------------------------
+  
   console.log("---------------------------------------------------------------------------");
 
 
