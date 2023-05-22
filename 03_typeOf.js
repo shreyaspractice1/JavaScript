@@ -23,7 +23,7 @@ console.log("is Working ?",isWorking,typeof(isWorking));
 console.log("__________________________________________________");
 console.log("4)");
 console.log("a.");
-var totleCount = "Hundred nd Seven";
+var totleCount = "Hundred and Seven.";
 console.log("Totle Count : ",totleCount,typeof(totleCount));
 console.log("_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _");
 console.log("b.");
