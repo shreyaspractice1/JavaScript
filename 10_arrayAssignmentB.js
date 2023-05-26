@@ -16,6 +16,6 @@ var totalCharOf1 = countCharA("I AM Learning JavaScript, The Language of interne
 console.log(` Total number of "a" and "A" available in the String is => ${totalCharOf1}`);
 console.log("---------------------------------------------------------------------------");
 console.log(`2}  Given string is: "My favourite movie is LAggAn"`);
-var totalCharOf2 = countCharA("My favourite movie is LAggAn");
+var totalCharOf2 = countCharA("My favourate movie is LAggAn");
 console.log(` Total number of "a" and "A" available in the String is => ${totalCharOf2}`);
 console.log("---------------------------------------------------------------------------");
