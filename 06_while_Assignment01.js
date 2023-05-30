@@ -51,27 +51,40 @@ console.log(` 5} Printing Table of 5 ==> `);
         } 
         num++;
     }
+    
     console.log("-----------------------------------------------------------------------");
 console.log(` 6}  Printing Table of 10 ==> `);
 var num = 10 ;
     count = 0;
     while (count < 10 ) {
         if (num % 10 == 0) {
-            console.log(num);
+            console.log(` + ${num} +`);
              count++; 
              
         } 
         num++;
     }
     console.log("-----------------------------------------------------------------------");
-    console.log(` 7}  Printing Table of 10 inReverse order ==> `);
-    var num = 100 ;
-    count = 0;
-    while (count < 10 ) {
-        if (num % 10 == 0) {
-            console.log(num);
-             count++; 
+    // console.log(` 7}  Printing Table of 10 inReverse order ==> `);
+    // var num = 100 ;
+    // count = 0;
+    // while (count < 10 ) {
+    //     if (num % 10 == 0) {
+    //         console.log(num);
+    //          count++; 
              
-        } 
-        num--;
-    }
+    //     } 
+    //     num--;
+    // }
+    console.log(" this is change...");
+    var num = 100;
+    console.log("-----------------------------------------------------------------------");
+    
+    console.log(`7.Table of 10 in reverse order:`);
+let t = 100;
+let reverseTable = "";
+while (t >= 10) {
+  reverseTable = reverseTable + " " + t;
+  t = t - 10;
+}
+console.log(reverseTable);

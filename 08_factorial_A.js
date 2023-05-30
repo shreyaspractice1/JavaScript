@@ -1,9 +1,9 @@
 function factorialOfNum(num) {
     let result = 1;
-    for (let index = num; index >= 1; index--) {
-      result *= index;
+    for (let index = num; num <= 1; index--) {
+      result *= num ;
     }
-    console.log(`Factorial of ${num} is ${result}`);
+          console.log(`Factorial of ${num} is ${result}`);
   }
   console.log("------Factorial of Number------");
   console.log("");
