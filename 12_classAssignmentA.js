@@ -46,9 +46,6 @@ const UtkarshPrathmikVidyalaya = new College("Utkarsh Prathmik Vidyalay","4 th",
 const SangolaVidyaMandirSangola = new College("SVM Jr. College","12 th", "Science", 2014, "Sangola");
 const FabtechTechnicalCampus = new College("Fabtech Technical Campus","Bachlor of Engg.", "MECHANICAL", 2018, "Sangola");
 const BITsPilaniTechnology = new College("BIT's Pilani Technology","Master's of Engg.", "Automobile Tech", 2020, "Hyderabad");
-
-
-
 traverseObject(UtkarshPrathmikVidyalaya);
 console.log("---------------------------------------");
 traverseObject(SangolaVidyaMandirSangola);
@@ -65,42 +62,6 @@ function traverseObject(clgName) {
         console.log(`${key} :: "${element}"`);
     }
 }
+
 }
-
 //-----------------------------------------------------------------------------------------------------------------------------------------------------
-
-// class College {
-//   constructor(name ,department,city,pincode){
-//    this.name = name;
-//    this.department= department;
-//    this.city= city;
-//    this.pincode = pincode;
-//   }
-//   traverse(){
-
-//       console.log(`  Details is : ${this.name},${this.department},${this.city},${this.pincode}`);
-//   }
-// }
-// const Sinhgad = new College("Sinhgad College","Computer Engg","Pandharpur",413304);
-// const SVERI = new College("SVERI'S College","Mechanical Engg","Pandharpur",413304);
-// const Febtech = new College("Febtech College","Electric Engg","Sangola",413304);
-// const DY =new College("D Y Patil","Civil Engg","Pune",411018);
-
-// traverse(Sinhgad);
-// console.log(`-------------------------------------------------------------------------------`);
-// traverse(SVERI);
-// console.log(`-------------------------------------------------------------------------------`);
-// traverse(Febtech);
-// console.log(`-------------------------------------------------------------------------------`);
-// traverse(DY);
-
-
-// function traverse(sinhgad){
-
-//   for (const key in sinhgad) {
-//       if (sinhgad.hasOwnProperty.call(sinhgad, key)) {
-//           const element = sinhgad[key];
-//           console.log(`${key},${element}`);
-//       }
-//   }
-// }

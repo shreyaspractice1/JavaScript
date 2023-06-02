@@ -24,6 +24,6 @@ for (const element of array) {
 }
 
 //------------------------------------------------------
-// abhijeet.showDetails(); 
-// snehal.showDetails();
-// rushi.showDetails();
+abhijeet.showDetails(); 
+snehal.showDetails();
+rushi.showDetails();
