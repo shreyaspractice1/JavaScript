@@ -21,10 +21,19 @@ let array2 = (a1,a2,a3,a4,a5=1) =>
 {
    let addition = a1 + a2 + a3 + a4 + a5;
     console.log(`      Given inputs are => "${a1}","${a2}","${a3},"${a4},"${a5}" and It's Addition is => "${addition}"`);
+
+    // let add = (a1,a2,a3,a4,a5) => {
+    //     let result = a1 + a2 + a3 + a4 + a5;
+    //     return result;
+    // }
+    // let result = add(" I am "," learning "," ES6 "," features "," in depth ");
+    // console.log(`Result is ${result}`);
+
+
 }
 console.log("3} a}");
 array2(100,100,200,349,756)
 console.log("-------------------------------------------------------------------------");
 console.log("   c}");
-array2(" I am "," learning "," ES6 "," features "," in depth ")
+ array2(" I am "," learning "," ES6 "," features "," in depth ")
 console.log("____________________________________________________________________________________________________________________________________________________");
