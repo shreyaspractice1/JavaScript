@@ -1,9 +1,9 @@
 const arrayNumbers = [1,-7,40,502,-77,91,0,108,89,-601]
 console.log("-----------------------------------------------------------------------------------------------");
 console.log(` 1}  Log the array elements with it's index using forEach() with arrow function => `);
-let element = [];
+// let element = [];
 arrayNumbers.forEach((element,index) => {
-    console.log(` ${element}`);
+    console.log(element);
 });
 console.log("-----------------------------------------------------------------------------------------------");
 console.log(` 2}  Log the Positive Number's using forEach() with arrow function => `);
@@ -39,17 +39,12 @@ arrayNumbers.forEach(element => {
 })
 console.log(`     Sum => ${sum}`);
 console.log("-----------------------------------------------------------------------------------------------");
-console.log(` 6}  Log the Sum of all elements from the arrayNumbers and log the Sum value on console => `);
-let evenSum = 0;
-let evenValues = [];
- 
-arrayNumbers.forEach(element => {
-    if (element % 2 == 0) {
-        evenValues.push(element)
-        evenSum += element;
-        
-    }
-})
-console.log(`   Even values in given array are =>  ${evenValues}`);
-console.log(`   Sum of all these number's is   =>  ${evenSum}`);
+console.log(` 6}  Log the only Even Indexed array values on console => `);
+    let index = [0];
+    let element
+    arrayNumbers.forEach((element,index) => {
+      if (index % 2 == 0) {
+        console.log(`  Position : ${index} , Value : ${element}`);
+      }
+    })
 console.log("-----------------------------------------------------------------------------------------------");

@@ -30,7 +30,7 @@ class Employee {
     
         array_employee.forEach((employee) => { 
         if (employee.emp_company == "TCS") {
-            console.log(` Name: ${employee.emp_name}     and the    Company: ${employee.emp_company}`);
+            console.log(` Name: ${employee.emp_name}   and the  Company: ${employee.emp_company}`);
         }
     });
     console.log("------------------------------------------------------------------------------------------------------------------");
