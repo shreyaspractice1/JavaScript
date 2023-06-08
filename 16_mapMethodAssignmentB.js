@@ -16,7 +16,7 @@ const emp_viny = new Employee(88, "Vinayak", "IT", 75000, "TCS");
 const emp_mahi = new Employee(99, "Mahesh", "HR", 85000, "Infy");
 
 const array_employees = [emp_anil, emp_radha, emp_rishi, emp_sonali, emp_monika, emp_viny, emp_mahi];
-// const myset = new Set(array_employees);
+
 
     console.log("____________________________________________________________________________________________________");
     const employeeNames = array_employees.map((employee) =>{
