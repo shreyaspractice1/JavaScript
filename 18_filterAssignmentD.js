@@ -95,6 +95,7 @@ let sumSalary1 = 0;
 itDeptAverage.forEach((employee)=>{
   sumSalary1 = sumSalary1 +employee.emp_salary;
 }); 
+console.log(sumSalary1);
 const average1 = sumSalary1 /itDeptAverage.length;
 console.log(`  6} Average salary of the "IT" employee => ${average1}`);   
 console.log("______________________________________________________________________");
