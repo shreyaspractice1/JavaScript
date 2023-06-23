@@ -1,24 +1,36 @@
-function prime(num) {
-
-    for (let index = 2; index < num; index++) {
-        if (  num % index == 0) {
-            console.log(` ${num} is not a prime number`);
-            break
-        }
-
-        if (num % index != 0){
-
-            console.log(` ${num} is a prime number`);
-            break
-        }
-        else{
-            console.log(` ${num} is a prime number`);
-        }
+function primeOrNot(num) {
+  
+  statusy = 1
+  if(num > 2)
+  {
+    for(i = 2; i<num; i++)
+    {
+      if(num % i == 0)
+      {
+        statusy=0;
+        break;
+      }
+  
     }
-}
-prime(11)
-prime(10)
-prime(0)
+  }
+  
+  if(statusy == 1 && num > 2)
+  {
+    console.log("prime");
+    
+  }
+  else if (num < 2)
+  {
+    console.log("Invalid Input");
+  }
+  else {
+    console.log("Not Prime");
+  }
+  }
+  primeOrNot(11)
+  primeOrNot(10)
+  primeOrNot(0)
+  primeOrNot(15)
 // //---------------------------------------------------------------------------------
 console.log("================== $ First 15 Prime Number's $ ==================");
 let count = 0;
