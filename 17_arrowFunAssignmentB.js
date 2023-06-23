@@ -44,7 +44,7 @@ console.log(` 2} "Finance" Department Employee's are => `);
 
 for (const employee of array) {
   if (employee.emp_dept == "Finance") {
-    console.log(employee.emp_name);
+    console.log(` Dept: ${employee.emp_dept}  Name: ${employee.emp_name}`);
   }
 }
 console.log(

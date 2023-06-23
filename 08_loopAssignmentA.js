@@ -25,4 +25,3 @@ function factorial(num) {
   
   console.log(`The cube of the factorial of ${num} is ${cubeResult}.`);
   console.log(`The sum is ${sum}.`);
-  
